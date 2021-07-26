@@ -1,0 +1,7 @@
+organization=joseporres
+projectKey=joseporres_examenSoftware
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.22079
+dashboardUrl=https://sonarcloud.io/dashboard?id=joseporres_examenSoftware
+ceTaskId=AXrksnw5kEYP0rK-jZ8I
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXrksnw5kEYP0rK-jZ8I
