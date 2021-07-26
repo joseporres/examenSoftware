@@ -15,9 +15,12 @@ public class Login {
     }
 
     public boolean login(){
-        if(user.equals(password.reverse())){
+        StringBuilder reversePass = new StringBuilder();
+        reversePass.append(password);
+        if(user.equals(reversePass.reverse().toString())){
             return true;
         }
         return false;
     }
+
 }

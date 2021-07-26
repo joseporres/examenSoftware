@@ -5,22 +5,23 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import com.examen.*;
 
 public class test {
     //login
     @Test
     public void loginCorrect() throws IOException
     {
-        Login user = new User("Joseporres", "serropesoJ");
-        Assert.assertTrue(user.login());
-        Assert.assertTrue(user.logout());
+        loginController login = new loginController();
+        Assert.assertTrue(login.login("Joseporres", "serropesoJ"));
+        Assert.assertTrue(login.logout("Joseporres", "serropesoJ"));
     }
 
     @Test
     public void loginFail() throws IOException
     {
-        User user = new User("Joseporres", "jo");
-        Assert.assertFalse(user.login());
+        loginController login = new loginController();
+        Assert.assertFalse(login.login("Joseporres", "jo"));
     }
 
     //centros
