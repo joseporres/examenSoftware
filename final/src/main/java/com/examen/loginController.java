@@ -2,7 +2,6 @@ package com.examen;
 
 import java.util.List;
 import java.util.ArrayList;
-import com.examen.Login;
 
 
 public class loginController {

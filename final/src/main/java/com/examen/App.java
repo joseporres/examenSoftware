@@ -1,11 +1,8 @@
 package com.examen;
 
 import java.util.logging.Logger;
-import java.lang.*;
-import java.io.*;
 import java.util.*;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication

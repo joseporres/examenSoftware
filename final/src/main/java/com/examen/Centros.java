@@ -2,20 +2,19 @@ package com.examen;
 
 import java.util.List;
 
-import com.examen.Centro;
 public class Centros {
     
-    List<Centro>lista_centros;
+    List<Centro>listCentros;
 
     public Centros(){
         for(int i = 1; i < 51; i++){
             Centro centro  = new Centro(i);
-            lista_centros.add(centro);
+            listCentros.add(centro);
         }
-    };
+    }
 
     boolean darDeAltaId(int id){
-        for(Centro centro : lista_centros) {
+        for(Centro centro : listCentros) {
             if(id == centro.getIdcentro()){
                 centro.darDeAlta();
                 return true;
@@ -25,7 +24,7 @@ public class Centros {
     }
 
     boolean darDeBajaId(int id){
-        for(Centro centro : lista_centros) {
+        for(Centro centro : listCentros) {
             if(id == centro.getIdcentro()){
                 centro.darDebaja();
                 return true;

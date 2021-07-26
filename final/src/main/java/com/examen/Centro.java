@@ -2,13 +2,13 @@ package com.examen;
 
 
 public class Centro {
-    int id_centro;
-    boolean dadoDeAlta;//true si es dado de alta false si es dado de baja;
+    int idCentro;
+    boolean dadoDeAlta;
 
-    public Centro(){};
+public Centro(){/*const*/}
 
     public Centro(int id_centro){
-        this.id_centro = id_centro;
+        this.idCentro = id_centro;
         this.dadoDeAlta = false;
     }
 
@@ -20,7 +20,7 @@ public class Centro {
     }
 
     int getIdcentro(){
-        return id_centro;
+        return idCentro;
     }
 
 

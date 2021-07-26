@@ -1,6 +1,4 @@
 package com.examen;
-import java.io.Console;
-import java.util.*;
 
 
 public class Login {

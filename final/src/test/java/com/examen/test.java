@@ -1,11 +1,10 @@
 
 package com.examen;
-import java.util.*;
 import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.examen.*;
+import com.examen.loginController;
 
 public class test {
     //login
